@@ -6,7 +6,7 @@
 /*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 12:28:23 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/22 12:37:49 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/23 15:00:22 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -16,7 +16,7 @@ t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
 		return (NULL);
-	while (lst)
+	while (lst->next)
 		lst = lst->next;
 	return (lst);
 }

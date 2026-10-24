@@ -32,7 +32,7 @@ To use the library in your programs, include the header in your source code:
 * **Linux Manual Pages (`man`):** Used extensively to check the exact prototypes, expected behaviors, and edge cases of the original libc functions.
 * **Python Tutor:** Utilized to visualize C code execution step-by-step and better understand pointer interactions in memory.
 * **GeeksforGeeks:** Consulted for clear explanations on C data structures and algorithmic concepts.
-* **Wikipedia:** Used for cheking the definiton of some concepts, Two's compelemt and glibc...etc.
+* **Wikipedia:** Used for cheking the definiton of some concepts, Two's compelemt, glibc, and Valgrind...etc.
 * **Youtube:** Used for seeing Tutorials for Linked list, Kernel table..etc.
 * **RapidTables:** Used for converting from a base number to another one 
 

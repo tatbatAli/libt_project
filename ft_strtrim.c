@@ -6,7 +6,7 @@
 /*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 22:03:48 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/17 08:43:32 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/23 14:56:28 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -59,7 +59,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	char	*sub_str;
 
 	if (s1[0] == '\0')
-		return (NULL);
+		return (ft_strdup(""));
 	s1_len = ft_strlen(s1);
 	start = start_index(s1, set);
 	end = end_index(s1, set, s1_len);

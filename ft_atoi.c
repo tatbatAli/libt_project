@@ -6,7 +6,7 @@
 /*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 17:32:02 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/23 09:42:50 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/24 12:30:02 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -30,8 +30,8 @@ int	calculate_number(const char *s, int i, int count_minus)
 		i++;
 	}
 	if (count_minus)
-		return ((long)res * 1);
-	return ((long)res);
+		return (res * (-1));
+	return (res);
 }
 
 int	ft_atoi(const char *s)
