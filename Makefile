@@ -11,7 +11,7 @@ all:$(NAME)
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
-%.o: %.c
+%.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
@@ -21,3 +21,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
+.PHONY: clean
