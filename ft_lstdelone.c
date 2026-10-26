@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/21 15:27:38 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/22 12:42:14 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:27:43 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:27:44 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))

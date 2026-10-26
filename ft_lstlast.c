@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/21 12:28:23 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/23 15:00:22 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:27:51 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:27:53 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 t_list	*ft_lstlast(t_list *lst)

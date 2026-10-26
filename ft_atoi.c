@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/13 17:32:02 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/24 12:30:02 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:24:25 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:24:38 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
+
 #include <limits.h>
 
 int	calculate_number(const char *s, int i, int count_minus)

@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 12:04:20 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/16 17:48:21 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:28:57 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:28:58 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 char	*ft_strdup(const char *s)

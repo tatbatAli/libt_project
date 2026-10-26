@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 16:28:07 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/25 10:03:15 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:29:44 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:29:45 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>

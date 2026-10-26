@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/17 23:50:20 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/23 09:43:46 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:29:22 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:29:23 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char ))

@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/17 22:27:44 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/18 12:25:26 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:27:21 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:27:24 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 static int	num_len(int n)

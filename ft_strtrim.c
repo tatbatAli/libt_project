@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 22:03:48 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/25 09:45:39 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:29:39 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:29:41 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 static int	start_index(char const *s1, char const *set)

@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/17 10:28:06 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/17 17:34:01 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:28:49 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:28:51 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 #include <stdlib.h>
 
 static int	count_words(char const *s, char c)

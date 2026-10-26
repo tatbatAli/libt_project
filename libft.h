@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: atatbat <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 15:25:30 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/23 09:38:37 by atatbat          ###   ########.fr       */
+/*   Created: 2026/10/26 14:31:09 by atatbat           #+#    #+#             */
+/*   Updated: 2026/10/26 14:31:11 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#ifndef LIBFT_H
+
 # define LIBFT_H
 
 # include <stddef.h>
