@@ -6,10 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:26:20 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:26:23 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 09:26:54 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 #include <stdint.h>
 

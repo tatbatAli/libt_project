@@ -6,10 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:07 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:28:09 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 09:28:00 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
 unsigned int	ft_lstsize(t_list *list)

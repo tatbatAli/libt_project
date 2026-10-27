@@ -6,10 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:25 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:28:27 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 09:28:12 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)

@@ -6,10 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:21 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:28:22 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 10:45:28 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)

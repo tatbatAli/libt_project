@@ -6,10 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:31:09 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:31:11 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 09:32:51 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef LIBFT_H
 # define LIBFT_H
 
 # include <stddef.h>

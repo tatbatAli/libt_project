@@ -6,11 +6,13 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:49 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:28:51 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 10:45:48 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 static int	count_words(char const *s, char c)
 {
@@ -62,9 +64,10 @@ static char	**splitting(char const *s, char c, char **arr, int size)
 		while (s[i] == c && s[i] != '\0')
 			i++;
 		len_words = word_size(s + i, c);
-		arr[j] = ft_substr(s, i, len_words);
+		arr[j] = malloc((len_words + 1) * sizeof(char));
 		if (!arr[j])
 			return (freeing_memory(arr, j));
+		ft_strlcpy(arr[j], s, len_words + 1);
 		i += len_words;
 		j++;
 	}
@@ -76,7 +79,6 @@ char	**ft_split(char const *s, char c)
 {
 	int		size;
 	char	**arr;
-	char	**res;
 
 	if (!s)
 		return (NULL);
@@ -84,6 +86,5 @@ char	**ft_split(char const *s, char c)
 	arr = malloc((size + 1) * sizeof(char *));
 	if (!arr)
 		return (NULL);
-	res = splitting(s, c, arr, size);
-	return (res);
+	return (splitting(s, c, arr, size));
 }

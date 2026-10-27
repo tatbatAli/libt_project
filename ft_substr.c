@@ -6,13 +6,12 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:29:44 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:29:45 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 10:17:25 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 static size_t	str_len(size_t s_len, unsigned int start, size_t len)
 {

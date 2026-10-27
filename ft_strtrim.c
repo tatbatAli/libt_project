@@ -6,15 +6,15 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:29:39 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:29:41 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 10:46:09 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
 static int	start_index(char const *s1, char const *set)
 {
-	int	start;
 	int	z;
 	int	i;
 
@@ -28,14 +28,12 @@ static int	start_index(char const *s1, char const *set)
 			break ;
 		z++;
 	}
-	start = z;
-	return (start);
+	return (z);
 }
 
 static size_t	end_index(char const *s1, char const *set, size_t s1_len)
 {
 	int	i;
-	int	end;
 
 	s1_len--;
 	while (s1_len > 0)
@@ -47,8 +45,7 @@ static size_t	end_index(char const *s1, char const *set, size_t s1_len)
 			break ;
 		s1_len--;
 	}
-	end = s1_len;
-	return (end);
+	return (s1_len);
 }
 
 char	*ft_strtrim(char const *s1, char const *set)

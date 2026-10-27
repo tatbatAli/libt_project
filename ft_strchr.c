@@ -6,10 +6,12 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:53 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/26 14:28:55 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/27 10:46:03 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+#include <string.h>
 
 char	*ft_strchr(const char *s, int c)
 {
