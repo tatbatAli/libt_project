@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:49 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 10:45:48 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/28 15:40:51 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ static char	**splitting(char const *s, char c, char **arr, int size)
 		arr[j] = malloc((len_words + 1) * sizeof(char));
 		if (!arr[j])
 			return (freeing_memory(arr, j));
-		ft_strlcpy(arr[j], s, len_words + 1);
+		ft_strlcpy(arr[j], s + i, len_words + 1);
 		i += len_words;
 		j++;
 	}
