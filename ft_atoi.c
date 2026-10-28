@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:24:25 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 09:26:24 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/28 14:22:50 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,6 @@ int	calculate_number(const char *s, int i, int count_minus)
 	res = 0;
 	while (s[i] >= '0' && s[i] <= '9')
 	{
-		if (LONG_MAX / 10 < res
-			|| (LONG_MAX == res && LONG_MAX % 10 == (s[i] - '0')))
-		{
-			if (count_minus)
-				return ((int)LONG_MIN);
-			return ((int)LONG_MAX);
-		}
 		res = (res * 10) + (s[i] - '0');
 		i++;
 	}
