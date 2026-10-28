@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:21 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/28 15:05:07 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/28 15:32:38 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	size_t			i;
+	size_t				i;
 	const unsigned char	*src_ptr;
-	unsigned char	*dest_ptr;
+	unsigned char		*dest_ptr;
 
 	i = 0;
 	src_ptr = (const unsigned char *)src;

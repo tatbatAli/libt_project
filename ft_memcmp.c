@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:17 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/28 15:04:28 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/28 15:32:50 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t			i;
+	size_t				i;
 	const unsigned char	*s1_ptr;
 	const unsigned char	*s2_ptr;
 
