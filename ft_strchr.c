@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:53 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 10:46:03 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/30 11:36:13 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strchr(const char *s, int c)
 	int	i;
 
 	i = 0;
-	while ((unsigned char)s[i] != (unsigned char)c && s[i] != '\0')
+	while (s[i] != '\0'&&(unsigned char)s[i] != (unsigned char)c  )
 	{
 		i++;
 	}

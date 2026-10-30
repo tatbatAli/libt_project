@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:27:38 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 09:27:37 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/30 10:47:47 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*tmp;
 
-	if (!(*lst) || !del)
+	if (!lst || !del)
 		return ;
 	while (*lst)
 	{
