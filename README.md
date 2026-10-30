@@ -21,7 +21,6 @@ The Makefile contains the following rules[cite: 4]:
 * `make clean`: Removes the compiled object files.
 * `make fclean`: Removes the object files and the `libft.a` binary.
 * `make re`: Cleans and recompiles the library.
-* `make bonus`: Compiles the library including the bonus linked list functions.
 
 **Usage**
 To use the library in your programs, include the header in your source code:
