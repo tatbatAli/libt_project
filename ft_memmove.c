@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:25 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/30 13:46:34 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/30 14:09:00 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	i = 0;
 	dest_ptr = (unsigned char *)dest;
 	src_ptr = (const unsigned char *)src;
-	if (!dest && !src)
+	if (dest == src)
 		return (dest);
 	if (dest_ptr > src_ptr)
 	{
@@ -33,14 +33,10 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 		return (dest);
 	}
-	else
+	while (i < n)
 	{
-		while (i < n)
-		{
-			dest_ptr[i] = src_ptr[i];
-			i++;
-		}
-		return(dest);	
+		dest_ptr[i] = src_ptr[i];
+		i++;
 	}
 	return (dest);
 }
