@@ -6,12 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:28:49 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/30 16:00:37 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/31 10:54:04 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	count_words(char const *s, char c)
 {

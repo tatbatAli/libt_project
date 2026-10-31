@@ -6,12 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:29:39 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 10:46:09 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/31 10:52:57 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	start_index(char const *s1, char const *set)
 {

@@ -6,12 +6,11 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:24:25 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/30 13:29:08 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/31 10:55:24 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <limits.h>
 
 int	calculate_number(const char *s, int i, int count_minus)
 {
