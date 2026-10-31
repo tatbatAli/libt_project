@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:31:09 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 09:32:51 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/10/31 10:55:35 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <stdint.h>
+# include <limits.h>
+
+
 
 typedef struct s_list
 {
