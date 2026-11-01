@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:29:31 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 09:29:00 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/11/01 09:05:29 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	i = 0;
 	if (little[i] == '\0')
 		return ((char *)big);
-	while (big[i] != '\0' && i < len)
+	while (i < len && big[i] != '\0')
 	{
 		j = 0;
 		while (big[i + j] == little[j] && i + j < len && little[j] != '\0')
@@ -29,5 +29,5 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 			return ((char *)&big[i]);
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
