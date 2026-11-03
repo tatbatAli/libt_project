@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:31:09 by atatbat           #+#    #+#             */
-/*   Updated: 2026/11/01 09:35:09 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/11/03 07:42:13 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdint.h>
-# include <limits.h>
 
 typedef struct s_list
 {
