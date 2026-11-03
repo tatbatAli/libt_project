@@ -6,7 +6,7 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:29:18 by atatbat           #+#    #+#             */
-/*   Updated: 2026/10/27 09:28:50 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/11/03 08:31:50 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	int	len;
+	size_t	len;
 
 	len = 0;
 	while (s[len] != '\0')
