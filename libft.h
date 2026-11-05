@@ -6,14 +6,13 @@
 /*   By: atatbat <atatbat@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 14:31:09 by atatbat           #+#    #+#             */
-/*   Updated: 2026/11/03 07:42:13 by atatbat          ###   ########.fr       */
+/*   Updated: 2026/11/05 11:26:38 by atatbat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdint.h>
